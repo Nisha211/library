@@ -1,0 +1,32 @@
+.edit{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: hotpink;
+    padding: 10px;
+
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 30%;
+    padding: 2px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+ .items{
+   text-align: left;
+   position: absolute;
+   bottom: -40%;
+   background-color: hotpink;
+   display: block;
+ }

@@ -1,0 +1,57 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "todo": [
+    {
+      "userId": 1,
+      "id": 1,
+      "title": "ReactComponent",
+      "body": "React lets you define components as classes or functions. Components defined as classes currently provide more features which are described in detail on this page. To define a React component class, you need to extend React.Component"
+    },
+    {
+      "userId": 1,
+      "id": 2,
+      "title": "React props",
+      "body": "Conceptually, components are like JavaScript functions. They accept arbitrary inputs (called “props”) and return React elements describing what should appear on the screen."
+    },
+    {
+      "userId": 1,
+      "id": 3,
+      "title": "React Lifecycle",
+      "body": "Each component in React has a lifecycle which you can monitor and manipulate during its three main phases. The three phases are: Mounting, Updating, and Unmounting."
+    },
+    {
+      "userId": 1,
+      "id": 4,
+      "title": "React state",
+      "body": "The state object is where you store property values that belongs to the component. When the state object changes, the component re-renders"
+    },
+    {
+      "title": "New title added",
+      "body": "New body added. Hello body.",
+      "userId": 2,
+      "id": 5
+    },
+    {
+      "title": "New title added",
+      "body": "New body added. Hello body.",
+      "userId": 2,
+      "id": 6
+    }
+  ]
+}

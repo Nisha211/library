@@ -1,0 +1,46 @@
+
+.header{
+    background-color: pink;
+    /*padding: -1px;*/
+    border: 1px solid black;
+}
+.header h2{
+    text-align: center;
+    color: rgb(101, 98, 238);
+}
+.footer{
+    text-align: center;
+    background-color: pink;
+    padding: 1px;
+    color: brown;
+    height:24px; 
+    width: 100%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    position: absolute;
+    background-position: 0% 0%;
+   
+    bottom: 0pt;
+    left: 0pt;
+    border: 1px solid black;
+
+    
+}
+.home{
+    background-color: powderblue;
+    
+}
+.home h2{
+    text-align: center;
+}
+.home p{
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    
+}
+.app{
+    text-align: center;
+    color: blue;
+}
+
